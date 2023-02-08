@@ -1,0 +1,6 @@
+.cache
+build
+node_modules
+vendor
+# Allow dot config files (e.g. .eslintrc.js)
+!.*.js

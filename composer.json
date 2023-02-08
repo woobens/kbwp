@@ -1,0 +1,17 @@
+{
+    "name": "woobens/kbwp",
+    "description": "Easy way to format and fix code with preconfigured Prettier, ESLint, Stylelint, PHPCS, EditorConfig and Browserlist inspired by WordPress and their coding standards",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require-dev": {
+        "wp-coding-standards/wpcs": "~2.3",
+        "dealerdirect/phpcodesniffer-composer-installer": "~0.7",
+        "phpcompatibility/phpcompatibility-wp": "~2.1"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}

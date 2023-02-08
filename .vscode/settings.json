@@ -1,0 +1,36 @@
+{
+	"[css]": {
+		"editor.defaultFormatter": "stylelint.vscode-stylelint",
+		"editor.formatOnSave": false
+	},
+	"[scss]": {
+		"editor.defaultFormatter": "stylelint.vscode-stylelint",
+		"editor.formatOnSave": false
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": false
+	},
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": false
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": false
+	},
+	"[php]": {
+		"editor.defaultFormatter": "obliviousharmony.vscode-php-codesniffer",
+		"editor.formatOnSave": false
+	},
+	"phpCodeSniffer.standard": "Default",
+	"phpCodeSniffer.autoExecutable": true,
+	"css.validate": false,
+	"scss.validate": false,
+	"less.validate": false,
+	"stylelint.validate": [ "css", "less", "postcss", "scss" ],
+	"editor.codeActionsOnSave": {
+		"source.fixAll": false,
+		"source.fixAll.eslint": false
+	}
+}

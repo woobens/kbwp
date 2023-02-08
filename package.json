@@ -1,0 +1,32 @@
+{
+  "name": "kbwp",
+  "version": "1.0.0",
+  "description": "Easy way to format and fix code with preconfigured Prettier, ESLint, Stylelint, PHPCS, EditorConfig and Browserlist inspired by WordPress and their coding standards",
+  "bin": {
+    "kbcode": "./bin/kbcode/index.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "start": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woobens/kbwp.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/woobens/kbwp/issues"
+  },
+  "homepage": "https://github.com/woobens/kbwp#readme",
+  "dependencies": {
+    "@wordpress/browserslist-config": "^5.5.0",
+    "@wordpress/eslint-plugin": "^13.6.0",
+    "@wordpress/prettier-config": "^2.5.0",
+    "@wordpress/stylelint-config": "^21.5.0"
+  },
+  "devDependencies": {
+    "browserslist": "^4.21.4",
+    "eslint": "^8.28.0",
+    "prettier": "npm:wp-prettier@^2.6.2"
+  }
+}
